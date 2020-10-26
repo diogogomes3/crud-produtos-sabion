@@ -1,0 +1,110 @@
+input:focus, label:focus{
+    outline: none;
+}
+.no-account a {
+    color: #e60084;
+}
+body{
+    padding-top: 5vh; /* view height -> 5% da tela */
+    background-image: url(../img/91.jpg);
+    background-size: cover;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #323232;
+    border: none;
+}
+input, label{
+    display: block;
+    width: 100%;
+}
+/* form */
+#main-container{
+    width: 500px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 120px;
+}
+#main-container2{
+    width: 500px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px;
+}
+#main-container h1, #main-container2 h1{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.6rem; /* adpatada ao elemento root */
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.full-box{
+    flex: 1 1 100%;
+    position: relative;
+}
+.half-box{
+    flex: 1 1 45%;
+    position: relative;
+}
+.spacing{
+    margin-right: 2.5%;
+}
+label{
+    font-weight: bold;
+    font-size: 16px;    
+}
+input{
+    border-bottom: 2px solid #323232;
+    padding: 10px 0px;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+input:focus{
+    border-color: #e60084;
+}
+input[type="submit"]{
+    background-color: #e60084;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+}
+input[type="submit"] :hover {
+    background-color: #fff;
+    color: #e60084;
+}
+.enter, .sign-up {
+    margin: 10px 20px 40px 0px;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #e60084;
+    color: white;
+}
+.enter a {
+    display: inline-block;
+    padding: 10px 200px;
+    border-radius: 5px;
+    color:white;
+    text-decoration: none;
+}
+.sign-up a {
+    display: inline-block;
+    padding: 10px 190px;
+    border-radius: 5px;
+    color:white;
+    text-decoration: none;
+}
+.enter :hover, .sign-up :hover {
+    background-color: black;
+    color: white
+}
