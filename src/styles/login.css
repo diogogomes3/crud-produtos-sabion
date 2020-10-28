@@ -1,3 +1,6 @@
+input:focus, label:focus{
+    outline: none;
+}
 .no-account a {
     color: #e60084;
 }
@@ -64,6 +67,9 @@ input{
     padding: 10px 0px;
     font-size: 16px;
     margin-bottom: 40px;
+}
+input:focus{
+    border-color: #e60084;
 }
 .sign-up {
     background-color: #e60084;
