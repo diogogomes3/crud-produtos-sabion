@@ -67,11 +67,11 @@ input{
 input:focus{
     border-color: #e60084;
 }
-button[type="submit"]{
+.sign-in{
     background-color: #e60084;
     border: none;
     color: #fff;
-    padding: 10px 190px;
+    padding: 10px 193px;
     text-align: center;
     font-size: 16px;
     border-radius: 20px;
