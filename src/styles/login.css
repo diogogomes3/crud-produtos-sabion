@@ -1,6 +1,3 @@
-input:focus, label:focus{
-    outline: none;
-}
 .no-account a {
     color: #e60084;
 }
@@ -22,7 +19,7 @@ input, label{
     width: 100%;
 }
 /* form */
-#main-container{
+#main-container-login {
     width: 500px;
     margin: auto;
     background-color: #fff;
@@ -30,14 +27,14 @@ input, label{
     padding: 25px;
     margin-top: 120px;
 }
-#main-container2{
+#main-container-cadastro {
     width: 500px;
     margin: auto;
     background-color: #fff;
     border-radius: 10px;
     padding: 25px;
 }
-#main-container h1, #main-container2 h1{
+#main-container-login h1, #main-container-cadastro h1{
     text-align: center;
     margin-bottom: 25px;
     font-size: 1.6rem; /* adpatada ao elemento root */
@@ -68,43 +65,25 @@ input{
     font-size: 16px;
     margin-bottom: 40px;
 }
-input:focus{
-    border-color: #e60084;
-}
-input[type="submit"]{
+.sign-up {
     background-color: #e60084;
-    color: #fff;
     border: none;
-    border-radius: 20px;
-    height: 40px;
-    cursor: pointer;
-}
-input[type="submit"] :hover {
-    background-color: #fff;
-    color: #e60084;
-}
-.enter, .sign-up {
-    margin: 10px 20px 40px 0px;
-    display: inline-block;
-    border-radius: 5px;
-    background-color: #e60084;
     color: white;
-}
-.enter a {
-    display: inline-block;
-    padding: 10px 200px;
-    border-radius: 5px;
-    color:white;
-    text-decoration: none;
-}
-.sign-up a {
-    display: inline-block;
     padding: 10px 190px;
-    border-radius: 5px;
-    color:white;
-    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
 }
-.enter :hover, .sign-up :hover {
-    background-color: black;
-    color: white
+.sign-in {
+    background-color: #e60084;
+    border: none;
+    color: white;
+    padding: 10px 200px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
 }
