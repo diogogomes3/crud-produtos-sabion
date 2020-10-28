@@ -1,19 +1,18 @@
-body{
-    font-family: Arial, Helvetica, sans-serif
-}
+
 .direita{
     float: right;
 }
-body{
+.site{
     margin-top: 15px auto;
     padding: 10px;
     box-sizing: border-box;
     background-image: url(../../background.jpg);
     background-size: cover;
     background-position-y: -0px;
-    padding-top: 5vh; /* view height -> 5% da tela */
+    padding-top: 5vh;
+    font-family: Arial, Helvetica, sans-serif
 }
-footer{
+.wheelfoot{
     background-color: #e60084;
     height: auto;
     clear: both;
@@ -27,36 +26,36 @@ footer{
     width: 600px;
     margin-bottom: 10px;
 }
-h1{
+.titlefirst{
     background-color: #e60084;
     border-radius: 40px;
     padding: 15px 30px 15px 30px;
     margin: 10px 490px 10px 490px;
 }
-.pe ul{
+.ueli{
     list-style: none;
-    padding: 20px;
+    padding: 5px;
 }
-ul li{
+.elii{
     display: inline;
 }
-ul li a{
+.content{
     text-decoration: none;
     margin-right: 5px;
     padding: 15px 70px 15px 70px;
     font-size: 15px;
     display: inline-block;
-    color: black;
+    color: #000000;
 }
-ul li a:hover{
+.content:hover{
     display: inline-block;
     text-decoration: none;
-    color: blue;
+    color:#000080;
 }
 #menu ul{
     list-style: none;
     padding: 20px;
-    background-color:white;
+    background-color:#DCDCDC;
     border-radius: 10px;
 }
 #menu ul li{
@@ -64,9 +63,9 @@ ul li a:hover{
 }
 #menu ul li a{
     text-decoration: none;
-    background-color: honeydew;
+    background-color:#DCDCDC;
     color: black;
-    border: 0px solid white;
+    border: 0px solid #DCDCDC;
     border-radius: 10px 10px;
     margin-right: 5px;
     padding: 15px 30px 15px 30px;
@@ -75,7 +74,7 @@ ul li a:hover{
 }
 #menu ul li a:hover{
     background-color: #e60084;
-    color: white;
+    color: #DCDCDC;
     display: inline-block;
     text-decoration: none;
 }
@@ -85,5 +84,5 @@ ul li a:hover{
 }
 #menu ul li a.press{
     background-color:  #e60084;
-    color: white;
+    color: #DCDCDC;
 }
