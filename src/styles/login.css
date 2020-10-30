@@ -1,15 +1,4 @@
-input:focus, label:focus{
-    outline: none;
-}
-.no-account a {
-    color: #e60084;
-}
-body{
-    padding-top: 5vh; /* view height -> 5% da tela */
-    background-image: url(../img/91.jpg);
-    background-size: cover;
-}
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,8 +6,19 @@ body{
     color: #323232;
     border: none;
 }
-input, label{
-    display: block;
+input:focus, label:focus {
+    outline: none;
+}
+.no-account a {
+    color: #e60084;
+}
+body{
+    padding: 20px 0px;
+    background-image: url(../img/91.jpg);
+    background-size: cover;
+}
+.rotulo, #email, #password, #name, #conf-password {
+    display: inline-block;
     width: 100%;
 }
 /* form */
@@ -37,38 +37,38 @@ input, label{
     border-radius: 10px;
     padding: 25px;
 }
-#main-container-login h1, #main-container-cadastro h1{
+#main-container-login h1, #main-container-cadastro h1 {
     text-align: center;
     margin-bottom: 25px;
     font-size: 1.6rem; /* adpatada ao elemento root */
 }
-form{
+.register-form {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.full-box{
+.full-box {
     flex: 1 1 100%;
     position: relative;
 }
-.half-box{
+.half-box {
     flex: 1 1 45%;
     position: relative;
 }
-.spacing{
+.spacing {
     margin-right: 2.5%;
 }
-label{
+.rotulo {
     font-weight: bold;
     font-size: 16px;    
 }
-input{
+#name, #email, #password, #conf-password {
     border-bottom: 2px solid #323232;
     padding: 10px 0px;
     font-size: 16px;
     margin-bottom: 40px;
 }
-input:focus{
+input:focus {
     border-color: #e60084;
 }
 .sign-up {
