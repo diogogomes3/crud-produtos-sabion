@@ -7,21 +7,21 @@
     color: #323232;
     border: none;
 }
-input, label{
-    display: block;
-    width: 100%;
-}
-input:focus, label:focus{
-    outline: none;
-}
-a{
-    color: #e60084;
-}
 body{
     padding-top: 5vh; /* view height -> 5% da tela */
     background-image: url(../styles/91.jpg);
     background-size: cover;
     background-position-y: -0px;
+}
+#prod,#codi,#unid,#vend,#cust,#desc,#forn,#febr,#esto,#cada, .produto{
+    display: block;
+    width: 100%;
+}
+#prod:focus, #codi:focus, #unid:focus, #vend:focus, #cust:focus, #desc:focus, #forn:focus, #febr:focus, #esto:focus ,#cada:focus, .produto:focus{
+    outline: none;
+}
+a{
+    color: #e60084;
 }
 /* form */
 #main-container{
@@ -31,7 +31,7 @@ body{
     background-color: #fff;
     border-radius: 10px;
     padding: 25px;
-    height: 760px;
+    height: 690px;
 }
 #main-container h1{
     text-align: center;
@@ -54,17 +54,17 @@ form{
 .spacing{
     margin-right: 2.5%;
 }
-label{
+.produto{
     font-weight: bold;
     font-size: .8rem;
 }
-input{
+#prod,#codi,#unid,#vend,#cust,#desc,#forn,#febr,#esto,#cada{
     border-bottom: 2px solid #323232;
     padding: 10px;
     font-size: .9rem;
     margin-bottom: 40px;
 }
-input:focus{
+#prod:focus, #codi:focus, #unid:focus, #vend:focus, #cust:focus, #desc:focus, #forn:focus, #febr:focus, #esto:focus, #cada:focus{
     border-color: #e60084;
 }
 .sign-in{
@@ -82,7 +82,7 @@ input:focus{
 #agreement{
     margin-right: 5px;
 }
-#agreement, #agreement-label{
+#agreement:focus  #agreement-label{
     display: inline-block;
     width: auto;
 }
