@@ -19,7 +19,7 @@
     border-radius: 40px;
 }
 .produto{
-    background-color:  rgba(255, 255, 255, 0.842);
+    background-color:  #ffffffd7;
     padding: 8px 8px;
     border-radius: 10px;
     height: auto;
@@ -73,7 +73,7 @@
     display: inline-block;
 }
 #menu ul li a:hover{
-    background-color: #e60084;
+    background-color: #e6008293;
     color: #DCDCDC;
     display: inline-block;
     text-decoration: none;
