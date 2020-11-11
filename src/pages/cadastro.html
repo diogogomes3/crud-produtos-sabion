@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="diogo">
+    <link rel="stylesheet" href="../styles/login.css" />
+    <title>Cadastro</title>
+</head>
+<body>
+    <div id="main-container-cadastro">
+        <h1>Cadastre-se</h1>
+    
+        <form id="register-form">
+        <div class="full-box">
+            <label class="rotulo" for="name">Nome</label>
+            <input class="text-box" type="text" name="name" id="name" placeholder="Digite seu nome" />
+        </div>
+        <div class="full-box">
+            <label class="rotulo" for="lastname">Sobrenome</label>
+            <input class="text-box" type="text" name="lastname" id="name" placeholder="Digite seu sobrenome" />
+        </div>
+        <div class="full-box">
+            <label class="rotulo" for="email">E-mail</label>
+            <input class="text-box" type="email" name="email" id="email" placeholder="Digite seu e-mail" />
+        </div>   
+        <div class="half-box spacing">
+            <label class="rotulo" for="password">Senha</label>
+            <input class="text-box" type="password" name="password" id="password" placeholder="Digite sua senha" />
+        </div>
+        <div class="half-box spacing">
+            <label class="rotulo" for="password">Confirme sua senha</label>
+            <input class="text-box" type="password" name="password" id="conf-password" placeholder="Digite a senha novamente" />
+        </div>
+        <div class="full-box">
+            <button class="sign-up" type="submit" formaction="login.html">Cadastrar</button>
+            <p class="no-account">Já possui uma conta? <a href="login.html">Entre!</a></p>  
+        </div>
+    </div>
+        </form>
+</body>
+</html>

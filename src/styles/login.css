@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #323232;
+    border: none;
+}
+.rotulo:focus, .text-box:focus {
+    outline: none;
+}
+.no-account a {
+    color: #e60084;
+}
+body{
+    padding: 20px 0px;
+    background-image: url(../img/91.jpg);
+    background-size: cover;
+}
+.rotulo, .text-box {
+    display: inline-block;
+    width: 100%;
+}
+/* form */
+#main-container-login {
+    width: 500px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 120px;
+}
+#main-container-cadastro {
+    width: 500px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px;
+}
+#main-container-login h1, #main-container-cadastro h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.6rem; /* adpatada ao elemento root */
+}
+.register-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.full-box {
+    flex: 1 1 100%;
+    position: relative;
+}
+.half-box {
+    flex: 1 1 45%;
+    position: relative;
+}
+.spacing {
+    margin-right: 2.5%;
+}
+.rotulo {
+    font-weight: bold;
+    font-size: 16px;    
+}
+#name, #email, #password, #conf-password {
+    border-bottom: 2px solid #323232;
+    padding: 10px 0px;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+input:focus {
+    border-color: #e60084;
+}
+.sign-up {
+    background-color: #e60084;
+    border: none;
+    color: white;
+    padding: 10px 190px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.sign-in {
+    background-color: #e60084;
+    border: none;
+    color: white;
+    padding: 10px 200px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
