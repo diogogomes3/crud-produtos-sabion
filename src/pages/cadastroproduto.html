@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../styles/cadastroproduto.css">
+    <title>Cadastro-Produto</title>
+</head>
+<body>
+    <div id="main-container">
+        <h1>Cadastro de Produto</h1>
+        <form id="register-form">
+            <div class="full-box">
+                <label class="produto" for="name">Nome do Produto</label>
+                <input class="textbo" type="text" name="produto" placeholder="Digite o nome do Produto">
+            </div>
+            <div class="half-box spacing">
+                <label class="produto" for="codigo">Código</label>
+                <input class="textbo" type="text" name="codigo" placeholder="Digite o Código">
+            </div>
+            <div class="half-box">
+                <label class="produto" for="unidade">UN</label>
+                <input class="textbo" type="text" name="unidade" placeholder="Unidade">
+            </div>
+            <div class="half-box spacing">
+                <label class="produto" for="preco">Preço de Venda</label>
+                <input class="textbo" type="text" name="preco" placeholder="Digite Preço de Venda">
+            </div>
+            <div class="half-box">
+                <label class="produto" for="preco">Preço de Custo</label>
+                <input class="textbo" type="text" name="preco" placeholder="Digite Preço de Custo">
+            </div>
+            <div class="full-box">
+                <label class="produto" for="descricao">Descrição</label>
+                <input class="textbo" type="text" name="descricao" placeholder="Digite a Descrição">
+            </div>
+            <div class="half-box spacing">
+                <label class="produto" for="name">Fornecedor</label>
+                <input class="textbo" type="text" name="fornecedor" placeholder="Digite o Fornecedor">
+            </div>
+            <div class="half-box">
+                <label class="produto" for="name">Fabricante</label>
+                <input class="textbo" type="text" name="fabricante" placeholder="Digite o Fabricante">
+            </div>
+            <div class="half-box spacing">
+                <label class="produto" for="name">Estoque Atual</label>
+                <input class="textbo" type="text" name="estoque" placeholder="Digite o Estoque Atual">
+            </div>
+            <div class="half-box">
+                <label class="produto" for="name">Data de Cadastro</label>
+                <input class="textbo" type="text" name="data" placeholder="Digite a Data de Cadastro">
+            </div>
+            <div class="full-box">
+                <button class="sign-in" type="submit" formaction="../index.html">Registrar</button>
+            </div>
+        </form>
+    </div>
+    <p class="error-validation template"></p>
+</body>
+</html>
