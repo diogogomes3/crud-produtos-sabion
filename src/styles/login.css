@@ -6,7 +6,7 @@
     color: #323232;
     border: none;
 }
-input:focus, label:focus {
+.rotulo:focus, .text-box:focus {
     outline: none;
 }
 .no-account a {
@@ -17,7 +17,7 @@ body{
     background-image: url(../img/91.jpg);
     background-size: cover;
 }
-.rotulo, #email, #password, #name, #conf-password {
+.rotulo, .text-box {
     display: inline-block;
     width: 100%;
 }
