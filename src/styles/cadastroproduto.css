@@ -13,11 +13,11 @@ body{
     background-size: cover;
     background-position-y: -0px;
 }
-#prod,#codi,#unid,#vend,#cust,#desc,#forn,#febr,#esto,#cada, .produto{
+.textbo, .produto{
     display: block;
     width: 100%;
 }
-#prod:focus, #codi:focus, #unid:focus, #vend:focus, #cust:focus, #desc:focus, #forn:focus, #febr:focus, #esto:focus ,#cada:focus, .produto:focus{
+.textbo:focus, .produto:focus{
     outline: none;
 }
 a{
@@ -58,13 +58,13 @@ form{
     font-weight: bold;
     font-size: .8rem;
 }
-#prod,#codi,#unid,#vend,#cust,#desc,#forn,#febr,#esto,#cada{
+.textbo{
     border-bottom: 2px solid #323232;
     padding: 10px;
     font-size: .9rem;
     margin-bottom: 40px;
 }
-#prod:focus, #codi:focus, #unid:focus, #vend:focus, #cust:focus, #desc:focus, #forn:focus, #febr:focus, #esto:focus, #cada:focus{
+.textbo:focus{
     border-color: #e60084;
 }
 .sign-in{
